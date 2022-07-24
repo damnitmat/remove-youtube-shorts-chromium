@@ -25,30 +25,30 @@
     <main class="main-container">
         <div class="main-switch-container">
             <p class="main-switch-text">Remove YouTube Shorts</p>
-            <input type="checkbox" class="toggle" >
+            <input type="checkbox" class="toggle" id="main-switch-toogle">
         </div>
 
-        <div class="sub-switches-container">
+        <div class="sub-switches-container" id="sub-switches-container">
             <div class="sub-switch">
                 <p class="sub-switch-text">Remove on homepage</p>
-                <input type="checkbox" class="toggle" >
+                <input type="checkbox" class="toggle" id="remove-homepage-switch-toogle">
             </div>
 
             <div class="sub-switch">
                 <p class="sub-switch-text">Remove on subscriptions page</p>
-                <input type="checkbox" class="toggle" >
+                <input type="checkbox" class="toggle" id="remove-subscription-switch-toogle">
             </div>
             <div class="sub-switch">
                 <p class="sub-switch-text">Allow on this channel (channelName)</p>
-                <input type="checkbox" class="toggle" >
+                <input type="checkbox" class="toggle" id="allow-channel-switch-toogle">
             </div>
         </div>
     </main>
 
     <footer class="footer-container">
-        <p class="name-footer">Empire Inc.</p>
+        <p class="name-footer" id="name-footer">Empire Inc.</p>
         <div class="footer-text-divider"></div>
-        <p class="contact-footer">Donate</p>        
+        <p class="donate-footer" id="donate-footer">Donate</p>        
     </footer>
 
     <script src="popup.js"></script>
