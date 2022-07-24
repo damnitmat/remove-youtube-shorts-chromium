@@ -1,0 +1,25 @@
+{
+  "name": "Remove YouTube Shorts",
+  "description": "This extension removes YouTube Shorts from evey YouTube page.",
+  "version": "0.0.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "/assets/app-logo/youtube-shorts-16.png",
+        "32": "/assets/app-logo/youtube-shorts-32.png",
+        "48": "/assets/app-logo/youtube-shorts-48.png",
+        "128": "/assets/app-logo/youtube-shorts-128.png"
+    }
+  },
+  "icons": {
+    "16": "/assets/app-logo/youtube-shorts-16.png",
+    "32": "/assets/app-logo/youtube-shorts-32.png",
+    "48": "/assets/app-logo/youtube-shorts-48.png",
+    "128": "/assets/app-logo/youtube-shorts-128.png"
+  }
+}

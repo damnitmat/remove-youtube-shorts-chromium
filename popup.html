@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');</style>
+</head>
+<body class="body-container">
+    <header>
+        <div class="title-bar-container">
+            <div class="logo-name-container">
+                <img src="assets/youtube-shorts.svg" alt="youtube-shorts-logo" class="titlebar-logo">
+                <h2 class="titlebar-title">Remove YouTube Shorts</h2>
+            </div>
+            
+            <div class="settings-button-container">
+                <img src="assets/settings.svg" alt="settings" class="settings-button" id="settings-button">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="main-switch-container">
+            <p class="main-switch-text">Remove YouTube Shorts</p>
+            <input type="checkbox" class="toggle" >
+        </div>
+
+        <div class="sub-switches-container">
+            <div class="sub-switch">
+                <p class="sub-switch-text">Remove on homepage</p>
+                <input type="checkbox" class="toggle" >
+            </div>
+
+            <div class="sub-switch">
+                <p class="sub-switch-text">Remove on subscriptions page</p>
+                <input type="checkbox" class="toggle" >
+            </div>
+            <div class="sub-switch">
+                <p class="sub-switch-text">Allow on this channel (channelName)</p>
+                <input type="checkbox" class="toggle" >
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <p class="name-footer">Empire Inc.</p>
+        <div class="footer-text-divider"></div>
+        <p class="contact-footer">Donate</p>        
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>
